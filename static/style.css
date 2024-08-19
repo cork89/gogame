@@ -1,0 +1,19 @@
+button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(220, 0, 0, 1);
+}
+
+.centered {
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+img {
+  max-width: 100%;
+  max-width: 100%;
+}
