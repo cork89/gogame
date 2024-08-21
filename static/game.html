@@ -1,13 +1,13 @@
 {{define "body"}}
 <div class="centered">
     <h1>hello</h1>
-    <img src="/images/{{.Node}}.png" />
+    <img src="/images/{{.Value}}.png" />
 </div>
 <div class="centered">
-    <a href="/game/{{.Node}}?path=left"><button>Left</button></a>
+    <a href="/game/{{.Value}}?path=left"><button>Left</button></a>
     {{if IsForward .Forward}}
-    <a href="/game/{{.Node}}?path=forward"><button>Forward</button></a>
+    <a href="/game/{{.Value}}?path=forward"><button>Forward</button></a>
     {{end}}
-    <a href="/game/{{.Node}}?path=right"><button>Right</button></a>
+    <a href="/game/{{.Value}}?path=right"><button>Right</button></a>
 </div>
 {{end}}
